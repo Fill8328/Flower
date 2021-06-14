@@ -58,6 +58,29 @@ public class Flower {
         longFlover = myLongFlower;
         cost = myCost;
         freshnessLevel = myFresh;
+    }
+
+    @Override
+    public String toString() {
+        return "Flower{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", longFlover=" + longFlover +
+                ", cost=" + cost +
+                ", freshnessLevel=" + freshnessLevel +
+                '}';
+    }
+
+    public Flower(String name) {
+        this.name = name;
+    }
+
+    public Flower(int longFlover) {
+        this.longFlover = longFlover;
+    }
+
+    public Flower(double cost) {
+        this.cost = cost;
 
     }
 }

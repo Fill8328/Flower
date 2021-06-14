@@ -32,9 +32,6 @@ public class VarietiesOfRose {
         Flower naomiThreeWilted = new Flower("Rose Naomi", "Red", 60, 1.6, 2);
 
 
-
-
-
+        System.out.println(avalancheOne.toString());
     }
 }
-
