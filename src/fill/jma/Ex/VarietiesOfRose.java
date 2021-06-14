@@ -1,7 +1,7 @@
 package fill.jma.Ex;
 
 public class VarietiesOfRose {
-    public void Rose() {
+    public static void Rose() {
 
         Flower AvalancheOne = new Flower("Rose Avalanche", "White", 40, 1.8, 1);
 
@@ -46,6 +46,19 @@ public class VarietiesOfRose {
         Flower NaomiTwoWilted = new Flower("Rose Naomi", "Red", 50, 1.4, 2);
 
         Flower NaomiThreeWilted = new Flower("Rose Naomi", "Red", 60, 1.6, 2);
+
+        Flower FifteenRoseBouquet[] = new Flower[3];
+        FifteenRoseBouquet[0] = NaomiOne;
+        FifteenRoseBouquet[1] = PennyLaneOne;
+        FifteenRoseBouquet[2] = AvalanchePeachOneWilted;
+
+        for (int i = 0; i < FifteenRoseBouquet.length; i++) {
+            System.out.println(FifteenRoseBouquet[i] + "\n");
+        }
+
+
+
+
 
     }
 

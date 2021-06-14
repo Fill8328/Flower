@@ -8,6 +8,9 @@ public class Flower {
     private double cost;
     private int freshnessLevel;
 
+    public Flower() {
+    }
+
     public int getFreshnessLevel() {
         return freshnessLevel;
     }
@@ -23,10 +26,6 @@ public class Flower {
 
     public void setCost(double cost) {
         this.cost = cost;
-    }
-
-
-    public Flower() {
     }
 
     public String getName() {
