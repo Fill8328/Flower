@@ -10,10 +10,19 @@ public class Bouquet extends VarietiesOfRose {
         this.fifteenRose = fifteenRose;
     }
 
-    public Flower[] getFifteenRose() {
-        return fifteenRose;
-
+    @Override
+    public String toString() {
+        return "Bouquet{" +
+                "fifteenRose=" + Arrays.toString(fifteenRose) +
+                '}';
     }
 
+    public Flower[] getFifteenRose() {
+        return fifteenRose;
+    }
+
+    public void setFifteenRose(Flower[] fifteenRose) {
+        this.fifteenRose = fifteenRose;
+    }
 
 }

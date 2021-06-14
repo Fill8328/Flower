@@ -10,6 +10,7 @@ public class Main {
 
         VarietiesOfRose varietiesOfRose = new VarietiesOfRose();
         VarietiesOfRose.Rose();
-
+        Bouquet bouquet = new Bouquet();
+        Bouquet.Rose();
     }
 }
